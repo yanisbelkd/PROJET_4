@@ -1,0 +1,251 @@
+/* NE PAS TOUCHER */
+
+* {
+    background-color: #eeee;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+body {
+    display: fle;
+}
+
+html, body {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+.logo {
+    width: 100%;
+    height: 100%;
+    max-width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 20px;
+    margin-top: 60px;
+}
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    margin-top: 75px;
+}
+
+
+
+form {
+    text-align: center;
+}
+
+input {
+    max-width: 275px;
+    width: 100%;
+    padding: 5px;
+    display: block;
+    margin: 0 auto;
+}
+
+.submit {
+    max-width: 150px;
+    width: 100%;
+    height: 30px;
+    margin: 10px auto;
+    border: 0;
+    background-color: #f1c40f;
+    font-weight: 1000;
+    cursor: pointer;
+    display: block;
+    margin-bottom: 100px;
+    
+}
+
+@media (max-width: 600px) {
+    
+  }
+
+/* NE PAS TOUCHER */
+
+
+
+.icon {
+  transform: scale(0.5);
+ 
+}
+
+.desc {
+    margin-top: -80px;
+    text-align: center;
+}
+
+.first-h2 {
+    margin-top: 150px;
+}
+
+img[alt="camion"], img[alt="batterie"] {
+
+    margin-top: -25px;
+}
+
+img[alt="batterie"] {
+    margin-bottom: -15px;
+}
+
+iframe {
+    padding: 5%;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.square {
+    width: 300px;
+    height: 350px;
+    border: 1px solid black;
+    margin: 0 10px; /* Espacement entre les carrés */
+    margin-bottom: 20px;
+    position: relative;
+    
+}
+
+.square::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #949494;
+    opacity: 45%;
+}
+
+.tenor, .bass, .valve {
+    padding-top: 20px;
+    font-weight: bold;
+    
+}
+
+.price {
+    margin-top: 40px;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+ul {
+    list-style: none;
+    text-align: center;
+    padding: 20px;
+    margin-top: -20px;
+    margin-bottom: 10px;
+}
+
+ul li {
+    margin-bottom: 10px; /* Ajustez la marge verticale entre les éléments */
+  }
+
+button {
+    width: 100px;
+    height: 45px;
+    margin-top: -20px;
+    cursor: pointer;
+    background-color: #f1c40f;
+    border: none;
+    font-size: 15px;
+}
+
+nav {
+    width: 35vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; /* Conservez la répartition uniforme de l'espace */
+    margin-left: auto; /* Déplacez la barre de navigation vers la droite */
+    padding-left: 350px;
+    position: sticky;
+    top: 0;
+    
+    
+}
+
+img[alt="logo_original_trombones"]{
+    padding-right: 800px;
+}
+
+/* Ajoutez ces styles à votre fichier CSS */
+#header {
+    background-color: rgba(238, 238, 238, 1); /* Couleur de fond totalement opaque */
+    /* ... (autres styles) */
+    padding: 20px; /* Ajoutez de l'espace autour des éléments */
+    position: fixed;
+    top: 0;
+    width: 100%; /* Pour qu'elle occupe toute la largeur de la fenêtre */
+    z-index: 100; /* Assurez-vous qu'elle reste en premier plan */
+    opacity: 100%;
+}
+
+#header img {
+    max-width: 300px; /* Ajustez la largeur maximale de votre logo */
+}
+
+#nav-bar a {
+    text-decoration: none;
+    
+    margin: 0 20px; /* Ajoutez de l'espace entre les liens */
+}
+
+/* Styles pour le footer */
+footer {
+    background-color: #C6C6C6; /* Couleur de fond grise foncée */
+    
+    color: white; /* Couleur du texte en blanc */
+    text-align: center; /* Centrer le contenu du footer */
+    padding: 35px 0; /* Ajouter un peu d'espace autour du texte */
+    width: calc(300px * 3 + 20px * 2); /* Largeur égale à la largeur des 3 carrés plus les espacements */
+    margin: 1px auto 0; /* Centre le footer horizontalement */
+    padding-bottom: 60px;
+    
+}
+
+.pied {
+    background-color: #C6C6C6;
+    color: black;
+    text-decoration: none;
+    float: right; /* Aligner le texte à gauche */
+    margin-left: 0px; /* Ajouter une marge à gauche pour l'espacement */
+    padding-right: 35px;
+    margin-top: -15px;
+    
+}
+
+.last {
+    background-color: #C6C6C6;
+    margin-right: -230px;
+    float: right;
+    color: black;
+
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+  }
+
+  
+
+
+.nav-link {
+    top: 0;
+}
